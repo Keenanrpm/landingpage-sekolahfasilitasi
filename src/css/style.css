@@ -1,0 +1,16 @@
+
+/* Untuk browser WebKit (Chrome, Safari, Edge) */
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Untuk Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.border-red-500 {
+    border-color: #f56565; /* Red border color for error */
+}
