@@ -1,26 +1,16 @@
-
-/* Untuk browser WebKit (Chrome, Safari, Edge) */
-input[type=number]::-webkit-outer-spin-button,
-input[type=number]::-webkit-inner-spin-button {
-    -webkit-appearance: none;
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
-}
-
-/* Untuk Firefox */
-input[type=number] {
-    -moz-appearance: textfield;
-}
-
-.border-red-500 {
-    border-color: #f56565; /* Red border color for error */
+    padding: 0;
+    /* background-color: #f5f5f5; */
 }
 
 .update-section {
     max-width: 850px;
-    margin: auto ;
-    box-shadow: 0 0 0 100vmax #0098a6;
+    margin: 20px auto;
+    /* box-shadow: 0 0 0 100vmax #121212;
     clip-path: inset(0 -100vmax);
-    background-color: #0098a6;
+    background-color: #121212; */
     /* border-radius: 8px; */
     /* box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); */
     /* padding: 20px; */
@@ -82,7 +72,7 @@ input[type=number] {
     width: 100%;
     height: auto;
     transition: transform .2s;
-    margin-top: 0px;
+    margin-top: -21px;
 }
 
 .logo img:hover {
