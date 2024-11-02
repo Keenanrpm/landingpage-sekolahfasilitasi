@@ -77,7 +77,7 @@ input[type=number] {
 } */
 
 .logo img {
-    border-radius: 0 8px;
+    border-radius: 0 8px 8px 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     width: 100%;
     height: auto;
@@ -237,6 +237,7 @@ input[type=number] {
     }
 } */
 
+/* Header logo styling */
 .logo-home {
     display: flex;
     justify-content: center; /* Centers the logos horizontally */
