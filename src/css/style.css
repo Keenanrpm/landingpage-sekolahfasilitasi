@@ -236,3 +236,64 @@ input[type=number] {
         padding: 0 5px;
     }
 } */
+
+.logo-home {
+    display: flex;
+    justify-content: center; /* Centers the logos horizontally */
+    align-items: center; /* Aligns the logos vertically */
+    gap: 15px; /* Adjust the spacing between the logos as needed */
+}
+
+.logo-home img {
+    max-width: 80px; /* Adjust the size as needed */
+    height: auto;
+}
+
+/* Footer styling */
+.footer {
+    background-color: #2d3748; /* Equivalent to bg-gray-800 */
+    color: white; /* Equivalent to text-white */
+    padding: 24px 0; /* Equivalent to py-6 */
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px; /* Adjust as needed */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logos {
+    display: flex;
+    gap: 48px; /* Space between the logos (equivalent to space-x-12) */
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.logo-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px; /* Space between elements in each logo section (equivalent to space-y-2) */
+}
+
+.logo-section img {
+    height: 96px; /* Equivalent to h-24 */
+    width: auto;
+}
+
+.logo-section p {
+    text-align: center;
+    line-height: 1.5; /* Adjust line spacing */
+}
+
+.logo-section a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo-section a:hover {
+    text-decoration: underline; /* Add hover effect if needed */
+}
