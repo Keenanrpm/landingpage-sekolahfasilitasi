@@ -259,8 +259,8 @@ input[type=number] {
 }
 
 .logo-container {
-    height: 80px;
-    width: 80px;
+    height: auto;
+    width: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -297,7 +297,7 @@ input[type=number] {
 }
 
 .logo-section img {
-    height: 96px; /* Equivalent to h-24 */
+    height: 90px; /* Equivalent to h-24 */
     width: auto;
 }
 
