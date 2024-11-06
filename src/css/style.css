@@ -240,14 +240,30 @@ input[type=number] {
 /* Header logo styling */
 .logo-home {
     display: flex;
-    justify-content: center; /* Centers the logos horizontally */
-    align-items: center; /* Aligns the logos vertically */
-    gap: 15px; /* Adjust the spacing between the logos as needed */
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
 }
 
-.logo-home img {
+.logo-container-1 {
+    height: 80px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-container-1 img {
     max-width: 80px; /* Adjust the size as needed */
     height: auto;
+}
+
+.logo-container {
+    height: 80px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Footer styling */
@@ -297,4 +313,9 @@ input[type=number] {
 
 .logo-section a:hover {
     text-decoration: underline; /* Add hover effect if needed */
+}
+
+.logo-size {
+    width: 100px;
+    height: auto;
 }
